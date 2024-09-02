@@ -7,7 +7,7 @@ def backup_file(source, destination):
     backup_fname= os.path.join(destination, f"backup_{today}")
     shutil.make_archive(backup_fname,'gztar',source)
 
-source = "D:\Python For DevOps"
-destination = "D:\Python For DevOps/backups"
+source = "Enter your source path"
+destination = "Enter you destination path"
 
 backup_file(source,destination)
